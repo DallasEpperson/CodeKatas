@@ -21,10 +21,10 @@ func readln(max:Int = 8192) -> String? {
 }
 
 /**
-Gets regex capture groups from text
+Gets regex capture groups from matched text
 - Parameter pattern: The regex pattern
 - Parameter text: The text to attempt to match
-- Returns: A string array of captured groups. Index 0 is entire capture. Empty array if no match.
+- Returns: A string array of captured groups. Index 0 is entire match. Empty array if no match.
 */
 func regexGroups(pattern: String!, text: String!) -> [String] {
     do {
